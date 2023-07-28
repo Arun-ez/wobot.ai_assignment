@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/wobot.ai_assignment/static/css/main.052afbd1.css",
+    "main.js": "/wobot.ai_assignment/static/js/main.01f86fc1.js",
+    "index.html": "/wobot.ai_assignment/index.html",
+    "main.052afbd1.css.map": "/wobot.ai_assignment/static/css/main.052afbd1.css.map",
+    "main.01f86fc1.js.map": "/wobot.ai_assignment/static/js/main.01f86fc1.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.052afbd1.css",
+    "static/js/main.01f86fc1.js"
+  ]
+}
