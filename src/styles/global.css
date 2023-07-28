@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap');
+
+:root {
+  --accent_color: #e0e8fc
+}
+
+body {
+  font-family: 'Poppins';
+}
+
+a {
+  text-decoration: none;
+}

@@ -1,0 +1,137 @@
+.form_container {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form_card {
+    width: 420px;
+    padding: 50px;
+    border-radius: 14px;
+    background-color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form_card>span {
+    font-size: 25px;
+    font-weight: bold;
+    opacity: 80%;
+}
+
+.form_card b {
+    font-size: 13px;
+    color: gray;
+    margin-top: 20px;
+}
+
+.form_card p {
+    font-size: 13px;
+    color: gray;
+}
+
+.inputs {
+    width: 100%;
+    display: grid;
+}
+
+.inputs input,
+select {
+    border: 1px solid rgb(128, 128, 128, 0.5);
+    padding: 12px;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.inputs input::placeholder {
+    color: rgb(128, 128, 128, 0.7);
+}
+
+.inputs input:focus {
+    outline-color: var(--accent_color);
+}
+
+.inputs select:focus {
+    outline-color: var(--accent_color);
+}
+
+.inputs label {
+    padding: 20px 0px 5px 0px;
+    font-weight: 600;
+    font-size: 14px;
+    color: gray
+}
+
+.locations {
+    display: flex;
+    gap: 10px;
+    margin-top: 4px;
+}
+
+.locations>div {
+    font-size: 12px;
+    padding: 2px 10px 2px 10px;
+    cursor: pointer;
+    user-select: none;
+    white-space: nowrap;
+    border-radius: 20px;
+}
+
+.active {
+    opacity: 100%;
+    color: white;
+    background-color: #3766e8;
+}
+
+.inactive {
+    opacity: 80%;
+    color: black;
+    background-color: #f2f2f2;
+}
+
+.inputs button {
+    border: none;
+    cursor: pointer;
+    margin-top: 40px;
+    color: white;
+    font-size: 16px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+    background-color: #3766e8;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
+
+.quick_links a {
+    color: gray;
+    font-size: 14px;
+}
+
+.quick_links span {
+    color: gray;
+}
+
+.quick_links a:hover {
+    color: #3766e8;
+}
+
+@media (0px <=width <=550px) {
+    .form_card {
+        width: 85%;
+        padding: 30px;
+    }
+
+    .form_card text {
+        font-size: 20px;
+    }
+
+    .locations>div {
+        font-size: 11px;
+    }
+}
